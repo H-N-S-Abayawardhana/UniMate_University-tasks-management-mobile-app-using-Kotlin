@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="emailEditText" type="id" />
+    <item name="passwordEditText" type="id" />
+    <item name="homeIcon" type="id" />
+    <item name="favoriteIcon" type="id" />
+    <item name="searchIcon" type="id" />
+    <item name="settingsIcon" type="id" />
+    <item name="userIcon" type="id" />
+    <item name="tasksSection" type="id" />
+</resources>

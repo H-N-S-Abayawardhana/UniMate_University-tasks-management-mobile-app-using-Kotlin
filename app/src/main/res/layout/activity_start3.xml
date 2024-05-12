@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".StartActivity3">
+
+    <!-- UniMate Logo -->
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/unimatelogo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Final Step - Complete Your Setup"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Getting Started with UniMate:
+
+Sign Up: Create your UniMate account using your university email address.
+Add Tasks: Begin by adding your assignments, projects, and exams to UniMate.
+Set Reminders: Enable notifications to receive timely reminders as deadlines approach.
+Stay Organized: Regularly review your tasks and update their statuses as you progress.
+Collaborate: Share tasks and collaborate with peers on group projects effortlessly.
+Customize: Tailor UniMate to your preferences for a personalized experience.
+Explore Features: Take advantage of all UniMate features to optimize your academic journey.
+Reach Out: For any questions or assistance, our support team is here to help!"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/square_background"
+        android:text="Finish" />
+</LinearLayout>

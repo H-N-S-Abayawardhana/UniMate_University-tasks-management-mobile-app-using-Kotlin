@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- AppBar overlay for adjusting the AppBar styling -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Add specific customizations here if necessary -->
+    </style>
+
+        <!-- PopupOverlay style used for pop-up elements like menus -->
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+            <!-- Customize your theme here. You can override default properties or add new ones -->
+        </style>
+
+
+
+</resources>
