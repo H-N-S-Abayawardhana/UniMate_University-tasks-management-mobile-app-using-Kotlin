@@ -71,6 +71,8 @@ Get ready to conquer your academic challenges effortlessly with UniMate.
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Next" />
+            android:text="Next"
+            android:background="@color/colorLightPurple" />
+
     </LinearLayout>
 </RelativeLayout>

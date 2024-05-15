@@ -5,6 +5,15 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+
+    <TextView
+        android:id="@+id/nametopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tasks"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"

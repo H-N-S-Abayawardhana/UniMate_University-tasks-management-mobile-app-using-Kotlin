@@ -3,47 +3,76 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
 
-    <!-- Logo -->
+    <!-- UniMate Logo -->
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="90dp"
-        android:src="@drawable/unimatelogo"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp" />
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/unimatelogo2"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitCenter"/>
 
-    <TextView
-        android:id="@+id/nameTextView"
+    <!-- Name Input -->
+    <EditText
+        android:id="@+id/nameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/black" />
+        android:layout_marginBottom="12dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_rounded_background" />
 
-    <TextView
-        android:id="@+id/emailTextView"
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/emailEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/black" />
+        android:layout_marginBottom="12dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_rounded_background" />
 
-    <TextView
-        android:id="@+id/contactTextView"
+    <!-- Contact Number Input -->
+    <EditText
+        android:id="@+id/contactEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/black" />
+        android:layout_marginBottom="12dp"
+        android:hint="Contact Number"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_rounded_background" />
 
-    <TextView
-        android:id="@+id/addressTextView"
+    <!-- Address Input -->
+    <EditText
+        android:id="@+id/addressEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/black" />
+        android:layout_marginBottom="12dp"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_rounded_background" />
 
-    <TextView
-        android:id="@+id/passwordTextView"
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/updateButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/black" />
+        android:text="Update"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/colorLightGreen"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false" />
 
 </LinearLayout>

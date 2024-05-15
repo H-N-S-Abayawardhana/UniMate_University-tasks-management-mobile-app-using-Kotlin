@@ -126,6 +126,14 @@ class DBHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null
         return tasks
     }
 
+    fun deleteTask(taskId: Int) {
+        val db = writableDatabase
+        val selection = "id = ?"
+        val selectionArgs = arrayOf(taskId.toString())
+        db.delete(TABLE_TASKS, selection, selectionArgs)
+        db.close()
+    }
+
     @SuppressLint("Range")
     fun getUserByEmail(email: String): User? {
         val db = this.readableDatabase
@@ -164,5 +172,4 @@ class DBHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null
         db.close()
         return user
     }
-
 }

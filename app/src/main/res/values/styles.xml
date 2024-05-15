@@ -14,6 +14,10 @@
         <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
             <!-- Customize your theme here. You can override default properties or add new ones -->
         </style>
+    <style name="NextButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/colorLightPurple</item>
+    </style>
+
 
 
 
